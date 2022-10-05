@@ -1,0 +1,33 @@
+body{
+    background-color: mediumorchid;
+    background-image: url("Images/hearts&magic.gif");
+    background-size: 100%;
+    background-repeat: cover no-repeat;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 100px;
+}
+
+.tabs{
+    float: left;
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 35%;
+    list-style: none;
+    font-size: 85px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+@media screen and(min-width: 200px) {
+    h1, a{
+        font-size: 40px;
+    }
+}
